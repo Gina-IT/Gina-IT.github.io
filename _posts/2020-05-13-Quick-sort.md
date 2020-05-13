@@ -10,6 +10,7 @@ layout: post
 => Divide and Conquer방법 중 하나  
 	- 배열을 2개의 조각으로 나눈 후 각각을 정렬하고 그 조각들을 다시 모아 원래 배열을 정렬시키는 방법  
 	- 대개 순환 호출을 이용하여 구현  
+
 => Merge Sort(합병정렬)과 달리 비균등한 크기로 나눔  
 	- Pivot 값을 기준으로 값이 더 작은 원소들과 큰 원소들로 나눔  
 
@@ -61,14 +62,14 @@ Code
 - 8개의 원소 값을 가지기 때문에 -> A[8]  
 - C언어에서 index( i )값은 0부터 시작하기 때문에 index 범위는 0~7  
    -> quicksort(A, 0, 7)  
-
-
+  
+  
 **< quick sort 함수 > - Recurrunce**  
 ![Quick sort_ quicksort code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort_recurrunce.jpg "Quick sort- quicksort code(recurrence)")  
- 
+   
 **< partition 함수 > - Divide and Conquer**  
 ![Quick sort_ partition code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort_partition.jpg "Quick sort- partition code")  
-
+  
 - i : pivot 값을 기준으로 반으로 나눈 후 중간점을 구분하기 위한 index  
 - j : pivot 값과 비교해나가는 원소의 index  
 - swap 함수 : 정렬 과정에서 두 값의 위치를 편하게 바꿔주기 위해 함수로 만듦  
