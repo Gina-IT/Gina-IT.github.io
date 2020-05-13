@@ -6,8 +6,8 @@ icon: fa-th
 {% assign category = page.category | default: page.title %}
 {%- include header.html scrolly_nav=category -%}
 
-<div id="main">
-  <ul>
+<ul>
+  <div id="main">
     {%- if page.content != "" -%}
       {%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
     {%- endif -%}
@@ -25,5 +25,6 @@ icon: fa-th
         {%- assign _content = _excerpt | append: _link -%}
         {%- include section.html title=_title subtitle=_subtitle content=_content -%}
    {% endfor %}
- </ul>
-</div>
+  </div> 
+</ul>
+  
