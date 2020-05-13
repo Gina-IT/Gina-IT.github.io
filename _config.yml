@@ -2,9 +2,9 @@
 title: Gina
 subtitle: IT
 email: 
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ginas_it.github.io/" # the base hostname & protocol for your site
+url: "https://gina-it.github.io/" # the base hostname & protocol for your site
 author:
 street_address: 
 city:
