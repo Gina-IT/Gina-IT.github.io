@@ -12,8 +12,7 @@ category: Cprogramming
 
 -----------
 
-Code
-------
+## Code  
 
 ```
 #include <stdio.h>
@@ -62,7 +61,9 @@ int main()
 	 예) 2= ASCII코드 50, 0= ASCII코드 48  -> 숫자 2에 대해 ('2' - '0'= 50-48= 2)  
 	 => %d로 출력할 때 2가 출력 됨  
 
-Result
-------
+----------
+
+## Result  
+
   
 <img src= "/_img/extractnum_result.jpg">
