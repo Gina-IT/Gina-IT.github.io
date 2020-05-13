@@ -1,6 +1,6 @@
 ---
 title: Merge sort (합병 정렬)
-author: Chris
+author: Gina Sim
 layout: post
 ---
 -------------------
