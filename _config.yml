@@ -1,0 +1,34 @@
+# site settings
+title: Gina
+subtitle: IT
+email: 
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gina_it.github.io/" # the base hostname & protocol for your site
+author:
+street_address: 
+city:
+state: 
+zip_code: 
+country: Republic of Korea
+phone: 
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/Sim-Hyunji
+instagram_url: https://www.instagram.com/dano_s_hj/?hl=ko
+linkedin_url: https://www.linkedin.com/in/%ED%98%84%EC%A7%80-%EC%8B%AC-7406641a8/
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
