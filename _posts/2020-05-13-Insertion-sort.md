@@ -4,7 +4,7 @@ author: Gina Sim
 layout: post
 ---
 
-**Insertion sort 란?**
+Insertion sort 란?
 ======
 
 => 새로운 카드를 기존에 정렬된 카드 사이의 올바른 위치에 넣는 카드정렬 방법과 유사  
@@ -12,7 +12,7 @@ layout: post
 ![insertion_sort](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort.jpg "Insertion sort principle")  
 
 
-< Method >  
+**< Method >**  
 
 1. 정렬이 필요한 기준 index는 배열 두번째 위치부터 시작  
 2. 비교 index은 기준 index의 왼쪽에 위치  
@@ -24,10 +24,10 @@ layout: post
 --------------------
 
 
-**Pseudocode**
+Pseudocode
 ------
 
-< Insertion sort >  
+**< Insertion sort >**  
 j☞ 기준 index  
 	- 설명 편의를 위해 정렬이 필요한 index값을 기준 index라 칭하고 설명하겠음  
 i ☞ 비교 index  
@@ -38,17 +38,17 @@ i ☞ 비교 index
 
 --------------------
 
-**Code**
+Code
 ------
 
 
-< main 함수 > - 배열 설정 및 출력  
+**< main 함수 > - 배열 설정 및 출력**  
 ![Insertion sort_main code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_main.jpg "Insertion sort_main code")  
 
-<Insertion sort 함수>  
+**<Insertion sort 함수>**  
 ![Insertion sort code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_code.jpg "Insertion sort code")  
 
-※ while 문  
+**※ while 문**  
 
 - ' i > -1' :-1보다 크다는 → 0부터 시작한다 → C 언어에서 배열의 index는 0에서 부터 시작
 	=>비교 index 'i'가 배열을 벗어나지 않도록 하는 조건    
@@ -64,7 +64,7 @@ i ☞ 비교 index
 
 --------------------
 
-**Result**
+Result
 ------
-**Result**  
+ 
 ![Insertion sort result](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_result.jpg "Insertion sort result")
