@@ -68,4 +68,4 @@ Code
 Result
 ------
  
-<imf src="/_img/insertion_sort_result.jpg" alt="Insertion sort result">  
+<img src="/_img/insertion_sort_result.jpg" alt="Insertion sort result">  
