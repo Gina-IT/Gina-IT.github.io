@@ -9,7 +9,7 @@ Insertion sort 란?
 
 => 새로운 카드를 기존에 정렬된 카드 사이의 올바른 위치에 넣는 카드정렬 방법과 유사  
 
-![insertion_sort](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort.jpg "Insertion sort principle")  
+<img src= https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort.jpg "Insertion sort principle">  
 
 
 **< Method >**  
@@ -34,7 +34,7 @@ i ☞ 비교 index
 	- 설명 편의를 위해 이미 정렬이 된 배열의 index 값들을 비교 index라 칭하고 설명하겠음  
 	(이미 정렬된 숫자들과 비교해가면서 자신의 위치를 찾아야하기 때문)  
 
-![Insertion sort pseudocode](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_pseudocode1.jpg "Insertion sort pseudocode")  
+<img src= https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_pseudocode1.jpg "Insertion sort pseudocode">  
 
 --------------------
 
@@ -43,10 +43,10 @@ Code
 
 
 **< main 함수 > - 배열 설정 및 출력**  
-![Insertion sort_main code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_main.jpg "Insertion sort_main code")  
+<img src= https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_main.jpg "Insertion sort_main code">  
 
 **<Insertion sort 함수>**  
-![Insertion sort code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_code.jpg "Insertion sort code")  
+<img src= https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_code.jpg "Insertion sort code">  
 
 **※ while 문**  
 
@@ -67,4 +67,4 @@ Code
 Result
 ------
  
-![Insertion sort result](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_result.jpg "Insertion sort result")
+<img src= https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_result.jpg "Insertion sort result">
