@@ -27,9 +27,15 @@ layout: post
 < Insertion sort >
 j☞ 기준 index  
 	- 설명 편의를 위해 정렬이 필요한 index값을 기준 index라 칭하고 설명하겠음  
+<<<<<<< HEAD
 i ☞ 비교 index  
 	- 설명 편의를 위해 이미 정렬이 된 배열의 index 값들을 비교 index라 칭하고 설명하겠음  
 	(이미 정렬된 숫자들과 비교해가면서 자신의 위치를 찾아야하기 때문)  
+=======
+i☞ 비교 index   
+	- 설명 편의를 위해 이미 정렬이 된 배열의 index 값들을 비교 index라 칭하고 설명하겠음  
+	(이미 정렬된 숫자들과 비교해가면서 자신의 위치를 찾아야하기 때문)
+>>>>>>> 17f489855c9b4972ea215dc40fc8b93fe8f07e5e
 
 ![Insertion sort pseudocode](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_pseudocode1.jpg "Insertion sort pseudocode")
 
@@ -45,11 +51,19 @@ i ☞ 비교 index
 
 ※ while 문
 
+<<<<<<< HEAD
 ● ' i > -1' :-1보다 크다는 → 0부터 시작한다 → C 언어에서 배열의 index는 0에서 부터 시작
 =>비교 index 'i'가 배열을 벗어나지 않도록 하는 조건    
 ● ' A[i] > key' :key 값은 A[j]로 기준 index에 존재하는 배열의 값, 위의 예에서 key값은 검은색 칸  
 =>비교 index 'i'의 값이 key보다 크면 while문 수행  
 ● ' A[i+1]= A[i]', 'i= i-1'
+=======
+● ' i > -1' :-1보다 크다는 → 0부터 시작한다 → C 언어에서 배열의 index는 0에서 부터 시작  
+=>비교 index 'i'가 배열을 벗어나지 않도록 하는 조건  
+● ' A[i] > key' :key 값은 A[j]로 기준 index에 존재하는 배열의 값, 위의 예에서 key값은 검은색 칸  
+=>비교 index 'i'의 값이 key보다 크면 while문 수행  
+● ' A[i+1]= A[i]', 'i= i-1'  
+>>>>>>> 17f489855c9b4972ea215dc40fc8b93fe8f07e5e
 : 비교 index들의 값이 key값보다 작을 동안 i+1의 배열 값( A[i+1] ) 에 i의 배열값( A[i] ) 삽입  
 → 비교 index 'i'를 'i -1' 시켜 오른쪽에서 왼쪽으로 이동하며 key 와 비교  
 → key값보다 크면 A[i]을 A[i+1]에 삽입하며 값을 오른쪽으로 한칸씩 이동시킴  
