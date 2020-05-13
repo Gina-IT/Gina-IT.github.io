@@ -4,9 +4,10 @@ author: Gina Sim
 layout: post
 ---
 
+
 ***Insertion sort 란?***
 
-▶ 새로운 카드를 기존에 정렬된 카드 사이의 올바른 위치에 넣는 카드정렬 방법과 유사
+=> 새로운 카드를 기존에 정렬된 카드 사이의 올바른 위치에 넣는 카드정렬 방법과 유사
 
 ![insertion_sort](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort.jpg "Insertion sort principle")
 
@@ -24,7 +25,7 @@ layout: post
 
 **Pseudocode**
 
-< Insertion sort >
+< Insertion sort >  
 j☞ 기준 index  
 	- 설명 편의를 위해 정렬이 필요한 index값을 기준 index라 칭하고 설명하겠음  
 i☞ 비교 index   
@@ -59,5 +60,5 @@ i☞ 비교 index
 
 --------------------
 
-**Result**
+**Result**  
 ![Insertion sort result](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_result.jpg "Insertion sort result")
