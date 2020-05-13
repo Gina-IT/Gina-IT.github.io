@@ -22,8 +22,6 @@ icon: fa-th
         {%- endcapture -%}
         {%- capture _excerpt -%}<p>{{ post.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
         {%- capture _link -%}<a href="{{ site.baseurl }}{{ post.url }}">read more</a>{%- endcapture -%}
-        {%- assign _content = _excerpt | append: _link -%}
-        {%- include section.html title=_title subtitle=_subtitle content=_content -%}
    {% endfor %}
   </div> 
 </ul>
