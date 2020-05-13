@@ -24,7 +24,7 @@ Pseudocode
 ------
 
 **< Counting sort >**  
-<img src="/_img/counting_sort_pseudocode.jpg" alt="Counting sort pseudocode">  
+<img src="/_img/counting_sort_pseudocode.JPG" alt="Counting sort pseudocode">  
 
 ----------
 
