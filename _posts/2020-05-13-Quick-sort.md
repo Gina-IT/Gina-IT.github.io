@@ -14,7 +14,7 @@ layout: post
 => Merge Sort(합병정렬)과 달리 비균등한 크기로 나눔  
 	- Pivot 값을 기준으로 값이 더 작은 원소들과 큰 원소들로 나눔  
 
-![Quick Sort principle](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort.jpg "Quick sort principle")  
+<img src="/_img/quick_sort.jpg" alt="Quick sort principle">  
 
 
 **< Step >**  
@@ -44,12 +44,12 @@ Pseudocode
 
 **< Quick Sort > - Recurrunce**  
 
-![Quick sort pseudocode_ recurrunce](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort_pseudocode1.jpg "Quick sort pseudocode")  
+<img src="/_img/quick_sort_pseudocode1.jpg" alt="Quick sort pseudocode">  
 
 
 **< Partitioning >**  
 
-![Quick sort pseudocode_ partitioning](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort_pseudocode2.jpg "Quick sort pseudocode_partitionin")  
+<img src="/_img/quick_sort_pseudocode2.jpg" alt="Quick sort pseudocode_partitionin">  
 
 ----------
 
@@ -57,7 +57,7 @@ Code
 ------  
   
 **< main 함수 > - 배열 설정 및 출력**    
-![Quick sort_ main code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort_main.jpg "Quick sort- main code")
+<img src="/_img/quick_sort_main.jpg" alt="Quick sort- main code">  
 
 - 8개의 원소 값을 가지기 때문에 -> A[8]  
 - C언어에서 index( i )값은 0부터 시작하기 때문에 index 범위는 0~7  
@@ -65,10 +65,10 @@ Code
   
   
 **< quick sort 함수 > - Recurrunce**  
-![Quick sort_ quicksort code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort_recurrunce.jpg "Quick sort- quicksort code(recurrence)")  
+<img src="/_img/quick_sort_recurrunce.jpg" alt="Quick sort- quicksort code(recurrence)">  
    
 **< partition 함수 > - Divide and Conquer**  
-![Quick sort_ partition code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort_partition.jpg "Quick sort- partition code")  
+<img src="/_img/quick_sort_partition.jpg" alt="Quick sort- partition code">  
   
 - i : pivot 값을 기준으로 반으로 나눈 후 중간점을 구분하기 위한 index  
 - j : pivot 값과 비교해나가는 원소의 index  
@@ -83,5 +83,5 @@ Code
 Result  
 ------
 
-![Quick sort result](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort_result.jpg "Quick sort rusult")
+<img src="/_img/quick_sort_result.jpg" alt="Quick sort rusult">
 

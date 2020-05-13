@@ -6,6 +6,7 @@ layout: post
 
 문제
 ------
+
 *" 범위를 입력받고, 해당 범위에 존재하는 서로소 쌍의 개수를 구하는 프로그램 작성  
 이때 (A, B)와 (B, A)는 같은 것으로 간주한다. "*  
 
@@ -39,7 +40,8 @@ int main() {
 
 ----------
 
-##Algorithm 1.  
+Algorithm 1.  
+------
 
 2부터 (범위의 끝 값 /2)까지 모든 수 중에  
 두 정수 A, B가 동시에 나누어 떨어지는 수가 있다면 count하지 않고  
@@ -74,7 +76,8 @@ int coprime(int start, int end){
 } 
 ```
 
-##Result  
+Result  
+------
 
 범위를 10부터 20으로 주었을 때  
 <img src= "/_img/coprime_result.jpg">  
@@ -95,7 +98,8 @@ x=252, y=105
     ( *제수: 나눗셈에서 어떤 수를 나누는 수 )  
 ```
 
-##Algorithm 2.  
+Algorithm 2.  
+------
 
 '어떤 두 수의 최대공약수가 1이면 두 수는 공약수'임을 이용  
 정수 A는 범위의 시작부터 A++,  정수 B는 범위의 끝부터 B--  
@@ -126,7 +130,8 @@ int gcd(int x, int y) {
 }
 ```
 
-##Result
+Result
+------
 
 범위를 10부터 20으로 주었을 때  
 <img src= "/_img/coprime2_result.jpg">  
@@ -142,10 +147,12 @@ Algorithm 1에 비해 시간이 단축된 것을 확인 가능
 
 범위가 커지면 출력되는 서로소가 너무 많기 때문에 서로소를 출력하는 부분은 제외하고 개수만 출력하였다.  
 
-##Algorithm 1  
+Algorithm 1  
+------
 <img src="/_img/coprime_algorithm1_result.jpg">  
   
-##Algorithm 2  
+Algorithm 2  
+------
 <img src="/_img/coprime_algorithm2_result.jpg">  
 시간이 20배 이상 줄어든 것을 확인할 수 있다.
 
