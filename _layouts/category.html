@@ -15,7 +15,7 @@ icon: fa-th
       <li>
        <h3>
           {%- capture _link -%}
-            <a href="{{ site.baseurl }}{{ post.url }}"></a>
+            <a href="{{- _post.url | absolute_url -}}"></a>
           {%- endcapture -%}
 
           {%- capture _title -%}
