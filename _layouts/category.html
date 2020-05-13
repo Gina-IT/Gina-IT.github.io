@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<dev class="posts-list">
+<ul class="posts-list">
   
   {% assign category = page.category | default: page.title %}
   {%- include header.html scrolly_nav=_posts -%}
@@ -24,4 +24,4 @@ layout: default
     </li>
   {% endfor %}
   
-</dev>
+</ul>
