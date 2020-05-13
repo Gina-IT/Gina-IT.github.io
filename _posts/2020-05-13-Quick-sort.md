@@ -3,7 +3,7 @@ title: Quick sort (퀵 정렬)
 author: Gina Sim
 layout: post
 ---
------------
+
 *Quick Sort란?*  
 ======  
 
