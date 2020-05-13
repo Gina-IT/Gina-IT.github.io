@@ -3,6 +3,7 @@ title: Insertion sort (삽입 정렬)
 author: Gina Sim
 layout: post
 ---
+--------------------
 
 *Insertion sort 란?*  
 ======
