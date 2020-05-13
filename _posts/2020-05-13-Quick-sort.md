@@ -2,6 +2,7 @@
 title: Quick sort (퀵 정렬)
 author: Gina Sim
 layout: post
+categories: Algorithms
 ---
 
 *Quick Sort란?*  
