@@ -27,7 +27,7 @@ layout: post
 < Insertion sort >
 j☞ 기준 index  
 	- 설명 편의를 위해 정렬이 필요한 index값을 기준 index라 칭하고 설명하겠음
-i ☞ 비교 index 
+i☞ 비교 index 
 	- 설명 편의를 위해 이미 정렬이 된 배열의 index 값들을 비교 index라 칭하고 설명하겠음
 	(이미 정렬된 숫자들과 비교해가면서 자신의 위치를 찾아야하기 때문)
 
