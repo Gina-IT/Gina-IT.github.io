@@ -4,7 +4,8 @@ author: Gina Sim
 layout: post
 ---
 
-##**Insertion sort 란?**
+**Insertion sort 란?**
+======
 
 => 새로운 카드를 기존에 정렬된 카드 사이의 올바른 위치에 넣는 카드정렬 방법과 유사  
 
@@ -23,7 +24,8 @@ layout: post
 --------------------
 
 
-###**Pseudocode**
+**Pseudocode**
+------
 
 < Insertion sort >  
 j☞ 기준 index  
@@ -36,7 +38,8 @@ i ☞ 비교 index
 
 --------------------
 
-##**Code**
+**Code**
+------
 
 
 < main 함수 > - 배열 설정 및 출력  
@@ -61,7 +64,7 @@ i ☞ 비교 index
 
 --------------------
 
-###**Result**
-=======
+**Result**
+------
 **Result**  
 ![Insertion sort result](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_result.jpg "Insertion sort result")
