@@ -4,7 +4,6 @@ icon: fa-th
 ---
 
 <div id="main">
-  <ul class="posts-list">
   
     {% assign category = page.category | default: page.title %}
     {%- include header.html scrolly_nav=category -%}
@@ -34,6 +33,5 @@ icon: fa-th
         </h3>
      </li>
    {% endfor %}
-  
-  </ul>
+
 </div>
