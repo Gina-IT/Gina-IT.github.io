@@ -41,23 +41,28 @@ Pseudocode
 **< Combine > - Recurrunce**  
 ![Merge sort pseudocode_recurrunce](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/merge_sort_pseudocode2.jpg "Merge sort pseudocode- merge sort")  
 
+
 -------------------
 
 Code  
 ------
 
 **< main 함수 > - 배열 설정 및 출력**  
+
 ![Merge sort_ main code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/merge_sort_main.jpg "Merge sort- main code")  
 
 
 **< merge 함수> - Divide and Conquer**  
+
 ![Merge sort_ merge code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/merge_sort_merge.jpg "Merge sort- merge code")   
 
 **< merge sort 함수 > - Combine/ Recurrunce**  
+
 ![Merge sort_ merge sort code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/merge_sort_mergesort.jpg "Merge sort- merge sort code")  
 
 - 함수 내에서 함수를 호출함으로써 재귀적으로 합병 정렬을 하게 됨  
   : 함수 내에서 함수 호출 (순환 호출) → 배열이 반복적으로 쪼개지면서 계속 작은 단위로 분할 → 작은 단위에서 정렬 → 정렬된 작은 조각들이 합병 → 최종적으로 원래 배열 하나가 전체 정렬이 됨
+
 
 -------------------
 
