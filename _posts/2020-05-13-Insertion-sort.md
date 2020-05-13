@@ -1,10 +1,10 @@
 ---
-title: Insertion sort(삽입 정렬)
+title: Insertion sort (삽입 정렬)
 author: Gina Sim
 layout: post
 ---
 
-Insertion sort 란?
+*Insertion sort 란?*  
 ======
 
 => 새로운 카드를 기존에 정렬된 카드 사이의 올바른 위치에 넣는 카드정렬 방법과 유사  
