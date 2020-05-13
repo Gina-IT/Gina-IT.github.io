@@ -2,7 +2,6 @@
 title: Merge sort (합병 정렬)
 author: Gina Sim
 layout: post
-category: Algorithms
 ---
 
 
