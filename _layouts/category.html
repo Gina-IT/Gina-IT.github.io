@@ -19,14 +19,15 @@ icon: fa-th
           {%- capture _link -%}
             <a href="{{ site.baseurl }}{{ post.url }}"></a>
           {%- endcapture -%}
+          
           {%- capture _title -%}
              <a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
           {%- endcapture -%}
           {%- capture _subtitle -%}
-             {%if post.author %}{{ post.author }} | {% endif %}
-             {{ post.date | date_to_long_string }}
+             <cite>{%if post.author %}{{ post.author }} | {% endif %}
+             {{ post.date | date_to_long_string }}</cite>
           {%- endcapture -%}
-          {%- capture _excerpt -%}<p>{{ post.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
+          {%- capture _excerpt -%}<small><p>{{ post.excerpt | strip_html | truncatewords: 100 -}}</p></small>{%- endcapture -%}
           {%- capture _link -%}<a href="{{- _post.url | absolute_url -}}">read more</a>{%- endcapture -%}
           {%- assign _content = _excerpt | append: _link -%}
           {%- include section.html title=_title subtitle=_subtitle content=_content -%}
