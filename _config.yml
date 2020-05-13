@@ -6,12 +6,6 @@ description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gina-it.github.io/" # the base hostname & protocol for your site
 author:
-street_address: 
-city:
-state: 
-zip_code: 
-country: Republic of Korea
-phone: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
