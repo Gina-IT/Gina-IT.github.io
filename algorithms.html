@@ -5,7 +5,7 @@ icon: fa-pencil-alt
 order: 2
 ---
 
-{%- assign _posts = site.posts | sort: 'date' | reverse -%}
+{%- assign _algorithms = site.posts | sort: 'date' | reverse -%}
 {%- include header.html scrolly_nav=_posts -%}
 
 <!-- Main -->
@@ -14,7 +14,7 @@ order: 2
 		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
 	{%- endif -%}
 	<!-- Posts List -->
-	{%- for _post in _posts -%}
+	{%- for _post in _algorithms -%}
 		{%- capture _title -%}
 			<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
 		{%- endcapture -%}
