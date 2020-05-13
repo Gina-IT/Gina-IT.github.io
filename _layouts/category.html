@@ -7,8 +7,9 @@ icon: fa-th
 {%- include header.html scrolly_nav=category -%}
 
 <div id="main">
-  {%- if page.content != "" -%}
-    {%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
+  <ul>
+    {%- if page.content != "" -%}
+      {%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
     {%- endif -%}
 
     {% for post in site.categories[category] %}
@@ -28,4 +29,5 @@ icon: fa-th
         </h3>
      </li>
    {% endfor %}
+ </ul>
 </div>
