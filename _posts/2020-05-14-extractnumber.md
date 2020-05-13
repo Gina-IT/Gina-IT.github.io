@@ -14,7 +14,7 @@ category: Cprogramming
 
 ## Code  
 
-```
+```c
 #include <stdio.h>
 #include <string.h>
 
@@ -66,4 +66,4 @@ int main()
 ## Result  
 
   
-<img src= "/_img/extractnum_result.jpg">
+<img src= "/_img/extractnum_result.JPG" alt="Extract number from characters_result">

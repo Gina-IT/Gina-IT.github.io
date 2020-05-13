@@ -30,7 +30,7 @@ category: Cprogramming
 ## Code  
 
 **< main 함수 >**  
-```
+```c
 #include <stdio.h>
 
 int char_counting_sort(char A[], char B[], int n);
@@ -54,7 +54,7 @@ int main(int argc, char* argv[]) {
 ```  
   
 **< char_counting_sort 함수 >**  
-```
+```c
 void alphabet_to_num(char A[], int n);
 void num_to_alphabet(char B[], int n);
 int char_counting_sort(char A[], char B[], int n) {
