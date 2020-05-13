@@ -80,7 +80,7 @@ Code
    → A[ i+2]부터 끝까지는 pivot 보다 큰 값  
 
 ----------
-Result
+Result  
 ------
 
 ![Quick sort result](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/quick_sort_result.jpg "Quick sort rusult")

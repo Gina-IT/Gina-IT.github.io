@@ -2,6 +2,7 @@
 title: Insertion sort (삽입 정렬)
 author: Gina Sim
 layout: post
+categories: Algorithms
 ---
 
 
@@ -46,7 +47,7 @@ Code
 **< main 함수 > - 배열 설정 및 출력**  
 ![Insertion sort_main code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_main.jpg "Insertion sort_main code")  
 
-**<Insertion sort 함수>**  
+**< Insertion sort 함수 >**  
 ![Insertion sort code](https://github.com/Gina-IT/Gina-IT.github.io/blob/master/_img/insertion_sort_code.jpg "Insertion sort code")  
 
 **※ while 문**  
