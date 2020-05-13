@@ -16,7 +16,9 @@ icon: fa-th
     {% for post in site.categories[category] %}
       <li>
        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}"></a>
+          {%- capture _link -%}
+            <a href="{{ site.baseurl }}{{ post.url }}"></a>
+          {%- endcapture -%}
           {%- capture _title -%}
              <a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
           {%- endcapture -%}
