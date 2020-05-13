@@ -2,7 +2,7 @@
 layout: default
 icon: fa-th
 ---
-<ul class="posts-list">
+<div class="posts-list">
   
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
@@ -23,4 +23,4 @@ icon: fa-th
     </li>
   {% endfor %}
   
-</ul>
+</div>
