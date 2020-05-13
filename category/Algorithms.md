@@ -2,5 +2,5 @@
 layout: category
 title: Algorithms
 icon: fa-pencil-alt
-order: 2
+order: 3
 ---
