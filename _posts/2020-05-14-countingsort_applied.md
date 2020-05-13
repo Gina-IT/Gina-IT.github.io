@@ -120,4 +120,4 @@ void num_to_alphabet(char B[], int n) {   //출력하기 위해 다시 숫자를
 Result
 ------
 
-<img src= "/_img/counting_sort_result.jpg" alt="Character counting sort result">
+<img src= "/_img/counting_sort_result.JPG" alt="Character counting sort result">
