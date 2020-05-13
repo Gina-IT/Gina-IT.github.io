@@ -12,7 +12,7 @@ category: Cprogramming
 
 -----------
 
-## Code  
+### Code  
 
 ```c
 #include <stdio.h>
@@ -63,7 +63,7 @@ int main()
 
 ----------
 
-## Result  
+### Result  
 
   
 <img src= "/_img/extractnum_result.JPG" alt="Extract number from characters_result">
