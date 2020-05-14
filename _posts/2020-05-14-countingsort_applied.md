@@ -1,11 +1,8 @@
 ---
 title: Counting sort 응용 문제
 author: Gina Sim
-<<<<<<< HEAD
 layout: post
-=======
-layout: post  
->>>>>>> b1d29a8aeb1cf1193dace211abc98de635eefee9
+category: Cprogramming
 ---
 
 문제  
