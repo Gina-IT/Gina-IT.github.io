@@ -7,6 +7,6 @@ order: 4
 
 수업 시간에 해결한 C언어 코딩 문제  
 
-All lists of C programming  
-------
+# All lists of C programming  
+
 [C programming](https://github.com/Gina-IT/C-programming){: target="_blank"}
