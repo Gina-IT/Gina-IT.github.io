@@ -2,6 +2,7 @@
 title: 숫자와 문자 분리하기
 author: Gina Sim
 layout: post
+category: Cprogramming
 ---
 
 문제
