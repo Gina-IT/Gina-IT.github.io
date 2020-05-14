@@ -2,7 +2,6 @@
 title: Counting sort 응용 문제
 author: Gina Sim
 layout: post
-category: Cprogramming  
 ---
 
 문제  

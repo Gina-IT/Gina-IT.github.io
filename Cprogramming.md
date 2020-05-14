@@ -1,6 +1,6 @@
 ---
-layout: page
 title: C Programming
+layout: page
 icon: fa-pencil-alt
 order: 4
 ---
